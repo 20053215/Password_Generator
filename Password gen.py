@@ -13,3 +13,13 @@ if Q == "yes" or Q == "Yes":
 
 print(password)
         
+<<<<<<< Updated upstream
+=======
+print("No inting")
+
+print("No GAMER, NO GAMING")
+
+print("Brrrrrrrrrrrrrrrrrr")
+
+print("TTTTTTTTTTTTRRRRRRR")
+>>>>>>> Stashed changes
