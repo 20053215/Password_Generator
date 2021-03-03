@@ -3,7 +3,7 @@ from string import *
 
 Q = input("Generate Password? ")
 
-password = ""
+password = "gamers"
 
 pchars = ascii_letters + digits
 
@@ -13,3 +13,4 @@ if Q == "yes" or Q == "Yes":
 
 print(password)
         
+print("Moews")
