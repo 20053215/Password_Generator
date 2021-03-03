@@ -1,22 +1,26 @@
 from random import *
 from string import *
 
-Q = input("Generate Password? ")
+while True:
+    try:
+        lenReq = int(input("Enter required password length: "))
+        if lenReq < 1:
+            break
+        elif lenReq > 50:
+            break
+    except:
+        print("hmmmmmmmmmmmmmmmmmmmmmmm")
 
-password = ""
+    Ques = input("Generate Password? ")
 
-pchars = ascii_letters + digits
+    password = ""
 
-if Q == "yes" or Q == "Yes":
-    for i in range(10):
-        password += choice(pchars)
+    pchars = ascii_letters + digits
 
-print(password)
-        
-print("No inting")
+    if Ques == "yes" or Ques == "Yes":
+        for i in range(lenReq):
+            password += choice(pchars)
 
-print("No GAMER, NO GAMING")
-
-print("Brrrrrrrrrrrrrrrrrr")
-
-print("TTTTTTTTTTTTRRRRRRR")
+    print(password)
+    break
+            
